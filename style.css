@@ -29,7 +29,7 @@
 
 /* --------------- DARK THEME VARIABLES ------------------- */
 .dark-theme-variables {
-    --color-backgrounds: #181a1e;
+    --color-background: #181a1e;
     --color-white: #202528;
     --color-dark: #edeffd;
     --clor-dark-variant: #a3bdcc;
@@ -535,6 +535,12 @@ main .recent-orders a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 150px;
+}
+
+.right .sales-analytics .add-product:hover {
+    background: var(--color-primary);
+    color: white;
 }
 
 .right .sales-analytics .add-product div {
